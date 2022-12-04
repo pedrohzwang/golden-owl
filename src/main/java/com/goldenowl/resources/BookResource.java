@@ -16,7 +16,7 @@ import java.util.List;
 public class BookResource {
 
     @Inject
-    private BookService bookService;
+    BookService bookService;
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
