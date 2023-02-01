@@ -10,7 +10,9 @@ import java.util.List;
 public class BookService {
 
     public List<BookEntity> findAll() {
-        return BookEntity.listAll();
+        List<BookEntity> l = BookEntity.listAll();
+        System.out.println(l);
+        return l;
     }
 
     @Transactional

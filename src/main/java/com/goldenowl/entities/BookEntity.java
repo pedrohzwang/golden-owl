@@ -4,7 +4,7 @@ import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
 import javax.persistence.Entity;
 
-@Entity
+@Entity(name = "book")
 public class BookEntity extends PanacheEntity {
 
     // Quarkus gera os getters e setters dos atributos da classe automaticamente, nao precisando tornar private
